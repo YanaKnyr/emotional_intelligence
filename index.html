@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Емоційний інтелект</title>
+  <style>
+    * { box-sizing: border-box; }
+    
+    html, body { height: 100%; margin: 0; }
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .middle {
+      flex: 1;            
+      display: flex;      
+    }
+    
+    .left {
+      width: 75%;         
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      height: 100px;
+      background: #ae69d1;
+      display: flex;            
+      align-items: center;
+      justify-content: space-between;
+      font-size: 24px;
+      padding: 0 20px;
+    }
+    
+    .phraseX{
+      color: #faf0f7;
+      padding: 5px 10px;
+      font-size: 30px;
+    }
+
+    .main {
+      flex: 1;                 
+      display: flex;         
+    }
+
+    .block3 {
+      width: 33%;              
+      background: #faf0f7;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding: 20px;
+      font-size: 24px;
+      line-height: 1.5;
+    }
+    
+    .block3 quote {
+      font-style: italic;
+      border-left: 5px solid #d082d9;
+      padding-left: 15px;
+      margin: 0 0 15px 0;
+      colot#333;
+    }
+
+    .column {
+      flex: 1;                 
+      display: flex;
+      flex-direction: column;
+    }
+
+    .block4 {
+      height: 50px;             
+      background: #faf0f7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .block5 {
+      flex: 1;                  
+      background: #faf0f7;
+      display: flex;
+      align-items: flex-start;
+      text-align: justify;
+      justify-content: flex-start;
+      flex-direction: column;
+      padding: 30px;
+      font-size: 20px;
+      line-height: 1.6;
+      colot: #333;
+      font-family: "Georgia", "Times New Roman", serif;
+    }
+
+    .right {
+      width: 25%;              
+      background: #c1dff7;
+      padding-top: 20px;
+      text-align: left;
+      font-size: 20px;
+    }
+    
+    .menu {
+      list-style-type: disc;
+      list-style-position: inside;
+      padding: 0 10px 0 10px;
+      margin: 0;
+    }
+
+    .menu li {
+     margin: 15px 0;    
+    }
+    
+    .menu a {
+     text-decoration: none;   
+     color: #000;             
+     font-weight: bold;
+     transition: color 0.2s;  
+    }
+
+    .menu a:hover {
+      color: white;   
+    }
+    
+    .footer {
+      height: 100px;
+      background: #ae69d1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 24px;
+      padding: 0 20px;
+    }
+    
+    .phraseY{
+      padding: 5px 10px;
+      font-size: 30px;
+      color: #faf0f7;
+      margin-left: auto;
+    }
+
+    @media (max-width: 700px) {
+      .middle { flex-direction: column; }
+      .left, .right { width: 100%; }
+      .block3 { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="middle">
+    <div class="left">
+      <div class="header">
+        <div class="phraseX">Що насправді означає бути розумним?</div>
+      </div>
+      
+      <div class="main">
+        <div class="block3">
+          <div class="content">
+            <quote>
+              «EQ — це розум, що відчуває»
+            </quote>
+            <img src="images/first_image.jpg" alt="Моя картинка" width="300">
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="block4">Що таке емоційний інтелект?</div>
+          <div class="block5">
+            <p>
+              Емоційний інтелект (EQ) — це здатність людини усвідомлювати власні емоції, розуміти почуття інших та ефективно ними керувати. Він визначає, наскільки ми вміємо співпрацювати, будувати стосунки, долати стресові ситуації й приймати виважені рішення.
+            </p>
+            <p>
+                На відміну від IQ, що відображає логічне мислення, EQ показує нашу зрілість у сфері почуттів та вміння поєднувати емоції з розумом.
+Високий рівень EQ допомагає досягати успіху не лише у професійній діяльності, а й у повсякденному житті, адже саме емоції визначають якість комунікації та наше благополуччя.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <ul class="menu">
+        <li><a href="page1.html">Що таке EQ?</a></li>
+        <li><a href="page2.html">Дослідники та їх праці</a></li>
+        <li><a href="page3.html">Складові EQ</a></li>
+        <li><a href="page4.html">Роль у житті</a></li>
+        <li><a href="page5.html">Практики розвитку</a></li>
+      </U>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="phraseY">Розум, що думає, і розум, що відчуває.</div>
+  </div>
+</body>
+</html>
